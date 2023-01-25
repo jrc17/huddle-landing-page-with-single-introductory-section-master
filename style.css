@@ -93,14 +93,18 @@ main {
 
     padding: 2.5rem 4.5rem;
   }
+  main,
+  header,
+  footer {
+    max-width: 90rem;
+    width: 80%;
+    margin: 0 auto;
+  }
   main {
-    max-width: 100%;
     grid-template-columns: 1fr 1fr;
-    margin-top: 2rem;
   }
   .grid {
     gap: 3rem;
-    justify-content: start;
   }
 
   .hero-content {
@@ -126,7 +130,7 @@ main {
     justify-self: start;
   }
   .social-icons {
-    place-self: end;
+    justify-content: end;
   }
 }
 
